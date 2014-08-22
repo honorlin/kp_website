@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8" />
 	
-	<title>柯文哲影片集</title>
+	<title>柯文哲影片集|柯文哲野生官網</title>
 
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -12,45 +12,37 @@
 		}
 	</style>
 </head>
-<body>
-	<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-	  <div class="container">
-	    <div class="navbar-header">
-	      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a href="index.html" class="navbar-brand">柯文哲 API 範例站</a>
-	    </div>
-	    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-	      <ul class="nav navbar-nav">
-	        <li >
-	          <a href="index.html">文章範例</a>
-	        </li>
-	        <li>
-	          <a href="album.html">相簿範例</a>
-	        </li>
-	        <li class="active">
-	          <a href="video.html">影片範例</a>
-	        </li>
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="http://kptaipei.tw" target="_blank">柯文哲官網</a></li>
-	        <li>
-	          <a href="http://unlimited.kptaipei.tw" target="_blank">野生官網活動介紹</a>
-	        </li>	        
-	      </ul>
-	    </nav>
-	  </div>
-	</header>
+<body>	
 	<div class="container">
+	  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">柯文哲野生官網</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">文章範例</a></li>
+            <li><a href="album.html">相簿範例</a></li>
+            <li class="active"><a href="video.html">影片範例</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://kptaipei.tw">柯文哲官網</a></li>
+            <li><a href=".http://unlimited.kptaipei.tw">野生官網活動介紹</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
 		
 		<div class="col-md-4">
 			<h2> 播放清單列表</h2>
 			<ul class="categories">
-				<li class="wait"> Loading </li>
+				<li class="wait"><img src="image/ajax-loader.gif"></li>
 			</ul>
 		</div>
 		<div class="page col-xs-12 col-sm-6 col-md-8 col-xs-6">
